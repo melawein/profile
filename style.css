@@ -1,0 +1,114 @@
+body {
+  background-image: url(images/background-image.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family:'Source Sans Pro', sans-serif;
+  color: #88B2CB;
+  font-size: 20px;
+  line-height: 2;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60%;
+}
+/*font-family: 'Open Sans', sans-serif;
+*/
+
+h1 {
+  font-size: 30px;
+  font-family:'Open Sans', sans-serif;
+  color: #6A8B9E;
+  line-height: 2;
+  text-align: center;
+}
+
+h2 {
+  font-family:'Open Sans', sans-serif;
+  color: #6A8B9E;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.btn-blue {
+  background-color: #A6D9F7;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.btn-blue:hover {
+  background-color: #6A8B9E;
+}
+
+.btn-light-blue {
+  background-color:#A6D9F7;
+  color: white;
+  text-decoration: none;
+  padding :10px 10px;
+  border-radius: 5px;
+}
+
+.btn-light-blue:hover {
+  background-color: #6A8B9E;
+}
+
+.card-white {
+  text-align: center;
+  background-color: white;
+  padding: 30px;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.list-inline li a {
+  color: rgb(30,30,30);
+  font-size: 24px;
+  opacity: 0.5;
+  line-height: 2;
+  background-color: rgba(200, 200, 200, .4);
+  padding: 8px;
+  border-radius: 3px;
+}
+
+.list-inline li a:hover {
+  opacity: 1;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
